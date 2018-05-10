@@ -16,6 +16,13 @@ struct SessionResult: Codable {
 class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var cityNameLabel: UILabel!
+    @IBOutlet weak var tempLabel: UILabel!
+    
+    //TRIED USING NAV.TOPVIEWCONTROLLER AND SETTING THE STORE THERE AND MOVING IT FORWARD
+    //TRIED STORYBOARD INSTANTIATEVIEWCONTROLLER
+    //TRIED VARIABLE DELEGATE OF A VIEWCONTROLLER. NONE OF IT SEEMS TO WORK!
+    weak var delegate: FavoritesViewController!
     
     
     var detailCity:City!
@@ -25,6 +32,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     override func viewDidLoad() {
         super.viewDidLoad()
         getWeatherDataFor(id: detailCity.woeid)
+        cityNameLabel.text = detailCity.title
     }
     
     func getWeatherDataFor(id: Int){
@@ -37,6 +45,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
                     DispatchQueue.main.async {
                    self.weekWeather = decodedInstance.consolidated_weather
                         self.tableView.reloadData()
+                        self.tempLabel.text = "\(String(Int(self.weekWeather[0].the_temp)))°C"
                     }
                 } else {
                     print(error?.localizedDescription)
@@ -63,4 +72,9 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         nf.maximumFractionDigits = 0
         return nf
     }()
+    
+    @IBAction func addToFavorites(_ sender: UIButton) {
+       self.delegate.favorites.append(detailCity)
+    }
+    
 }

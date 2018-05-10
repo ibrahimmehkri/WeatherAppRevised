@@ -13,6 +13,8 @@
 		AB08679420A1C39400A57A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB08679320A1C39400A57A58 /* Assets.xcassets */; };
 		AB08679720A1C39500A57A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB08679520A1C39500A57A58 /* LaunchScreen.storyboard */; };
 		AB08679F20A1C8BB00A57A58 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB08679E20A1C8BB00A57A58 /* DetailViewController.swift */; };
+		AB20F33320A44C9600023E16 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20F33220A44C9600023E16 /* FavoritesViewController.swift */; };
+		AB20F33520A45C9100023E16 /* favoritesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20F33420A45C9100023E16 /* favoritesStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AB08679620A1C39500A57A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB08679820A1C39500A57A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB08679E20A1C8BB00A57A58 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AB20F33220A44C9600023E16 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		AB20F33420A45C9100023E16 /* favoritesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritesStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				AB08678C20A1C39200A57A58 /* AppDelegate.swift */,
 				AB08678E20A1C39200A57A58 /* ViewController.swift */,
 				AB08679E20A1C8BB00A57A58 /* DetailViewController.swift */,
+				AB20F33420A45C9100023E16 /* favoritesStore.swift */,
 				AB08679020A1C39200A57A58 /* Main.storyboard */,
+				AB20F33220A44C9600023E16 /* FavoritesViewController.swift */,
 				AB08679320A1C39400A57A58 /* Assets.xcassets */,
 				AB08679520A1C39500A57A58 /* LaunchScreen.storyboard */,
 				AB08679820A1C39500A57A58 /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				AB08679F20A1C8BB00A57A58 /* DetailViewController.swift in Sources */,
 				AB08678F20A1C39200A57A58 /* ViewController.swift in Sources */,
+				AB20F33320A44C9600023E16 /* FavoritesViewController.swift in Sources */,
+				AB20F33520A45C9100023E16 /* favoritesStore.swift in Sources */,
 				AB08678D20A1C39200A57A58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,7 @@ import UIKit
 class ViewController: UIViewController{
     
     var cities = [City]()
+    var favorites: FavoritesStore!
 
     @IBOutlet weak var tableView: UITableView!
     var searchController = UISearchController(searchResultsController: nil)
