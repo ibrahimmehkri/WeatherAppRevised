@@ -9,7 +9,7 @@
 import UIKit
 
 // use search bar delegate and set keyboard with search button!
-class ViewController: UIViewController {
+class ViewController: UIViewController{
     
     var cities = [City]()
 
@@ -19,14 +19,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Weather Search"
-        self.tableView.delegate = self
-        self.tableView.dataSource = self
-        searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.searchBar.placeholder = "Search"
         navigationItem.searchController = searchController
         definesPresentationContext = true
-        searchController.isActive = true
+        searchController.searchBar.keyboardType = .asciiCapable
+        searchController.searchBar.delegate = self
     }
 }
 
@@ -48,12 +46,11 @@ struct Weather: Codable {
     var the_temp:Double
 }
 
-
-
-extension ViewController: UISearchResultsUpdating{
+extension ViewController: UISearchBarDelegate{
     // use searchbuttonclicked method instead of updatesearchresutls!
-    func updateSearchResults(for searchController: UISearchController) {
-        searchForCities(searchTerm: searchController.searchBar.text!)
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        guard let text = searchBar.text else {return}
+        searchForCities(searchTerm: text)
     }
     
     // make the call when the search button is clicked and fill the table!
@@ -63,35 +60,18 @@ extension ViewController: UISearchResultsUpdating{
         let task = URLSession.shared.dataTask(with: request, completionHandler: {
             data, response, error in
                 if let actualData = data {
-                        let decodedInstance = try? JSONDecoder().decode([City].self, from: actualData)
-                    self.cities = decodedInstance!
+                    guard let decodedInstance = try? JSONDecoder().decode([City].self, from: actualData) else {return}
+                    DispatchQueue.main.async {
+                        self.cities = decodedInstance
+                        self.tableView.reloadData()
+                    }
                 }
             })
             task.resume()
-            self.tableView.reloadData()
         }
     
     //use didselect row to get weather for the city. and save the entire weeks weather in an array!
-    // check if i can perform segue in the didselect row method! 
-     func getWeatherDataFor(id: Int, completion: @escaping (WeatherResult)->Void){
-        guard let url = URL(string: "https://www.metaweather.com/api/location/\(id)/") else { return}
-        let request = URLRequest(url: url)
-        let task = URLSession.shared.dataTask(with: request, completionHandler: {
-            data, response, error in
-            if error == nil, data != nil {
-                let jsonObject = try? JSONSerialization.jsonObject(with: data!, options: [])
-                guard let jsonDictionary = jsonObject as? [AnyHashable:Any],
-                    let weatherForecast = jsonDictionary["consolidated_weather"] as? Data else { return}
-                
-                if let decodedInstance = try? JSONDecoder().decode([Weather].self, from: weatherForecast){
-                    completion(.success(decodedInstance))
-                } else {
-                    completion(.failure(error!))
-                }
-            }
-        })
-        task.resume()
-    }
+    // check if i can perform segue in the didselect row method!
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toDetailView"{
@@ -108,7 +88,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate{
         return cities.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel?.text = cities[indexPath.row].title
         return cell
     }
