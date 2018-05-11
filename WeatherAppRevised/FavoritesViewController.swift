@@ -10,8 +10,12 @@ import UIKit
 
 class FavoritesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var favorites: FavoritesStore! 
-
+    var favorites: FavoritesStore!
+    var selectedCities = [City]()
+    var weather = [Weather]()
+    
+    @IBOutlet weak var compareButton: UIButton!
+    
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +38,30 @@ class FavoritesViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let city = favorites.favoritesArray[indexPath.row]
+        if tableView.cellForRow(at: indexPath)?.accessoryType == UITableViewCellAccessoryType.checkmark{
+            tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCellAccessoryType.none
+           selectedCities = selectedCities.filter({$0.title != city.title})
+            for item in selectedCities{
+                print(item.title)
+            }
+        } else {
+            tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCellAccessoryType.checkmark
+            selectedCities.append(city)
+            for item in selectedCities{
+                print(item.title)
+            }
+        }
+    }
+    @IBAction func gotoComparisonScreen(_ sender: UIButton) {
+        performSegue(withIdentifier: "toComparisonScreen", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toComparisonScreen"{
+            let controller = segue.destination as! ComparisonViewController
+            controller.selectedCities = selectedCities
+        }
     }
     
 

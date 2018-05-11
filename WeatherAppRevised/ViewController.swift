@@ -45,6 +45,7 @@ struct City: Codable{
 struct Weather: Codable {
     var applicable_date: String
     var the_temp:Double
+    var weather_state_abbr:String
 }
 
 extension ViewController: UISearchBarDelegate{

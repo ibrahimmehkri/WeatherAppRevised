@@ -15,6 +15,8 @@
 		AB08679F20A1C8BB00A57A58 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB08679E20A1C8BB00A57A58 /* DetailViewController.swift */; };
 		AB20F33320A44C9600023E16 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20F33220A44C9600023E16 /* FavoritesViewController.swift */; };
 		AB20F33520A45C9100023E16 /* favoritesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20F33420A45C9100023E16 /* favoritesStore.swift */; };
+		AB6EB1EA20A624F500DA40F5 /* ComparisonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6EB1E920A624F500DA40F5 /* ComparisonViewController.swift */; };
+		AB6EB1ED20A62CB500DA40F5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6EB1EC20A62CB500DA40F5 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		AB08679E20A1C8BB00A57A58 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		AB20F33220A44C9600023E16 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		AB20F33420A45C9100023E16 /* favoritesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoritesStore.swift; sourceTree = "<group>"; };
+		AB6EB1E920A624F500DA40F5 /* ComparisonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonViewController.swift; sourceTree = "<group>"; };
+		AB6EB1EC20A62CB500DA40F5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				AB08679E20A1C8BB00A57A58 /* DetailViewController.swift */,
 				AB20F33420A45C9100023E16 /* favoritesStore.swift */,
 				AB08679020A1C39200A57A58 /* Main.storyboard */,
+				AB6EB1EC20A62CB500DA40F5 /* TableViewCell.swift */,
+				AB6EB1E920A624F500DA40F5 /* ComparisonViewController.swift */,
 				AB20F33220A44C9600023E16 /* FavoritesViewController.swift */,
 				AB08679320A1C39400A57A58 /* Assets.xcassets */,
 				AB08679520A1C39500A57A58 /* LaunchScreen.storyboard */,
@@ -149,6 +155,8 @@
 				AB20F33320A44C9600023E16 /* FavoritesViewController.swift in Sources */,
 				AB20F33520A45C9100023E16 /* favoritesStore.swift in Sources */,
 				AB08678D20A1C39200A57A58 /* AppDelegate.swift in Sources */,
+				AB6EB1ED20A62CB500DA40F5 /* TableViewCell.swift in Sources */,
+				AB6EB1EA20A624F500DA40F5 /* ComparisonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

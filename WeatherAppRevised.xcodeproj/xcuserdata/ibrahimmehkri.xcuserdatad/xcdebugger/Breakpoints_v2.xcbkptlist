@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.859081"
+            timestampString = "547757012.442644"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
@@ -88,7 +88,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.859172"
+            timestampString = "547757012.4427249"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
@@ -104,7 +104,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.859236"
+            timestampString = "547757012.442783"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
@@ -152,7 +152,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.859295"
+            timestampString = "547757012.442836"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
@@ -168,7 +168,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.859351"
+            timestampString = "547757012.442891"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
@@ -184,7 +184,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.859406"
+            timestampString = "547757012.442943"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "81"
@@ -280,7 +280,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.859758"
+            timestampString = "547757012.443117"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
@@ -296,7 +296,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.859812"
+            timestampString = "547757012.443175"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
@@ -312,7 +312,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.859863"
+            timestampString = "547757012.4432909"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
@@ -328,7 +328,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.859916"
+            timestampString = "547757012.4433841"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "92"
@@ -344,13 +344,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.8599679"
+            timestampString = "547757012.443442"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "88"
             endingLineNumber = "88"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
-            landmarkType = "7">
+            landmarkName = "ViewController"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -360,7 +360,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.8600219"
+            timestampString = "547757012.443496"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "90"
@@ -454,7 +454,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.86014"
+            timestampString = "547757012.443583"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "79"
@@ -470,7 +470,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/ViewController.swift"
-            timestampString = "547645279.860211"
+            timestampString = "547757012.4436359"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "83"
@@ -498,11 +498,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/FavoritesViewController.swift"
-            timestampString = "547662860.468727"
+            timestampString = "547767537.074029"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
@@ -511,14 +511,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "WeatherAppRevised.FavoritesViewController.favorites.getter : Swift.ImplicitlyUnwrappedOptional&lt;WeatherAppRevised.FavoritesStore&gt;"
                   moduleName = "WeatherAppRevised"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/FavoritesViewController.swift"
-                  timestampString = "547662860.807961"
+                  timestampString = "547755247.101193"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -526,14 +526,14 @@
                   offsetFromSymbolStart = "109">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "WeatherAppRevised.FavoritesViewController.favorites.setter : Swift.ImplicitlyUnwrappedOptional&lt;WeatherAppRevised.FavoritesStore&gt;"
                   moduleName = "WeatherAppRevised"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/FavoritesViewController.swift"
-                  timestampString = "547662860.813094"
+                  timestampString = "547755247.104846"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -541,14 +541,14 @@
                   offsetFromSymbolStart = "112">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "WeatherAppRevised.FavoritesViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; WeatherAppRevised.FavoritesViewController"
                   moduleName = "WeatherAppRevised"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/FavoritesViewController.swift"
-                  timestampString = "547662860.817481"
+                  timestampString = "547755247.108325"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -556,14 +556,14 @@
                   offsetFromSymbolStart = "85">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "WeatherAppRevised.FavoritesViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;WeatherAppRevised.FavoritesViewController&gt;"
                   moduleName = "WeatherAppRevised"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/FavoritesViewController.swift"
-                  timestampString = "547662860.8216799"
+                  timestampString = "547755247.111305"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -576,7 +576,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/DetailViewController.swift"
@@ -589,14 +589,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "WeatherAppRevised.DetailViewController.addToFavorites(__ObjC.UIButton) -&gt; ()"
                   moduleName = "WeatherAppRevised"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/DetailViewController.swift"
-                  timestampString = "547662860.839216"
+                  timestampString = "547755274.4183249"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "79"
@@ -604,14 +604,14 @@
                   offsetFromSymbolStart = "28">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "WeatherAppRevised.DetailViewController.addToFavorites(__ObjC.UIButton) -&gt; ()"
                   moduleName = "WeatherAppRevised"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/DetailViewController.swift"
-                  timestampString = "547662860.8419"
+                  timestampString = "547755274.4262871"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "79"
@@ -624,16 +624,330 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAppRevised/FavoritesViewController.swift"
+            timestampString = "547767537.07418"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAppRevised/FavoritesViewController.swift"
+            timestampString = "547767537.074255"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAppRevised/ComparisonViewController.swift"
+            timestampString = "547767537.074327"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "getImages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAppRevised/ComparisonViewController.swift"
+            timestampString = "547767537.074796"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getWeather()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAppRevised/ComparisonViewController.swift"
+            timestampString = "547767537.075117"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ComparisonViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAppRevised.ComparisonViewController.selectedCities.getter : Swift.Array&lt;WeatherAppRevised.City&gt;"
+                  moduleName = "WeatherAppRevised"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/ComparisonViewController.swift"
+                  timestampString = "547767537.318761"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAppRevised.ComparisonViewController.selectedCities.setter : Swift.Array&lt;WeatherAppRevised.City&gt;"
+                  moduleName = "WeatherAppRevised"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/ComparisonViewController.swift"
+                  timestampString = "547767537.3221771"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAppRevised.ComparisonViewController.init(style: __C.UITableViewStyle) -&gt; WeatherAppRevised.ComparisonViewController"
+                  moduleName = "WeatherAppRevised"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/ComparisonViewController.swift"
+                  timestampString = "547767537.324993"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "29">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAppRevised.ComparisonViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; WeatherAppRevised.ComparisonViewController"
+                  moduleName = "WeatherAppRevised"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/ComparisonViewController.swift"
+                  timestampString = "547767537.3290761"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAppRevised.ComparisonViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;WeatherAppRevised.ComparisonViewController&gt;"
+                  moduleName = "WeatherAppRevised"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/ComparisonViewController.swift"
+                  timestampString = "547767537.333117"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAppRevised/ComparisonViewController.swift"
+            timestampString = "547767537.075455"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "getWeather()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAppRevised.ComparisonViewController.getWeather() -&gt; ()"
+                  moduleName = "WeatherAppRevised"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/ComparisonViewController.swift"
+                  timestampString = "547767537.3472511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1056">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__ObjC.URLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in WeatherAppRevised.ComparisonViewController.getWeather() -&gt; ()"
+                  moduleName = "WeatherAppRevised"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/ComparisonViewController.swift"
+                  timestampString = "547767537.350842"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAppRevised/ComparisonViewController.swift"
+            timestampString = "547767537.0758049"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ComparisonViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAppRevised.ComparisonViewController.weather.getter : Swift.Array&lt;WeatherAppRevised.Weather&gt;"
+                  moduleName = "WeatherAppRevised"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/ComparisonViewController.swift"
+                  timestampString = "547767537.360316"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAppRevised.ComparisonViewController.weather.setter : Swift.Array&lt;WeatherAppRevised.Weather&gt;"
+                  moduleName = "WeatherAppRevised"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/ComparisonViewController.swift"
+                  timestampString = "547767537.3630871"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAppRevised.ComparisonViewController.init(style: __C.UITableViewStyle) -&gt; WeatherAppRevised.ComparisonViewController"
+                  moduleName = "WeatherAppRevised"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/ComparisonViewController.swift"
+                  timestampString = "547767537.365687"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAppRevised.ComparisonViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; WeatherAppRevised.ComparisonViewController"
+                  moduleName = "WeatherAppRevised"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/ComparisonViewController.swift"
+                  timestampString = "547767537.368874"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "201">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherAppRevised.ComparisonViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;WeatherAppRevised.ComparisonViewController&gt;"
+                  moduleName = "WeatherAppRevised"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ibrahimmehkri/Desktop/Programming%20IOS/School%20Projects%20on%20Github/WeatherAppRevised/WeatherAppRevised/ComparisonViewController.swift"
+                  timestampString = "547767537.372366"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "139">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/FavoritesViewController.swift"
-            timestampString = "547662860.46935"
+            timestampString = "547767537.0763299"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "FavoritesViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAppRevised/FavoritesViewController.swift"
+            timestampString = "547767537.076405"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -644,12 +958,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherAppRevised/FavoritesViewController.swift"
-            timestampString = "547662860.46945"
+            timestampString = "547767537.076465"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAppRevised/ComparisonViewController.swift"
+            timestampString = "547767537.076524"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "getImages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAppRevised/ComparisonViewController.swift"
+            timestampString = "547767537.07684"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "getImages()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherAppRevised/ComparisonViewController.swift"
+            timestampString = "547767597.396785"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "getWeather()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

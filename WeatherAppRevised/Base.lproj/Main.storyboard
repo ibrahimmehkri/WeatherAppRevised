@@ -21,6 +21,26 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsMultipleSelection="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8sj-fa-O3s">
                                 <rect key="frame" x="0.0" y="58" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="VzY-2I-CgN">
+                                    <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRT-9J-vdV">
+                                            <rect key="frame" x="20" y="7" width="335" height="30"/>
+                                            <state key="normal" title="Compare"/>
+                                            <connections>
+                                                <action selector="gotoComparisonScreen:" destination="9xi-NG-a4K" eventType="touchUpInside" id="DTC-mJ-t1E"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="iRT-9J-vdV" secondAttribute="trailing" constant="20" id="DAm-qC-cOp"/>
+                                        <constraint firstItem="iRT-9J-vdV" firstAttribute="leading" secondItem="VzY-2I-CgN" secondAttribute="leading" constant="20" id="DY6-dW-5FU"/>
+                                        <constraint firstItem="iRT-9J-vdV" firstAttribute="centerY" secondItem="VzY-2I-CgN" secondAttribute="centerY" id="KcO-zF-rFe"/>
+                                        <constraint firstItem="iRT-9J-vdV" firstAttribute="centerX" secondItem="VzY-2I-CgN" secondAttribute="centerX" id="SDd-ix-VkM"/>
+                                    </constraints>
+                                </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="favCell" id="iER-Q2-R6U">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -49,17 +69,87 @@
                     <navigationItem key="navigationItem" id="frJ-M8-ykx">
                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="Sz5-uS-W3j">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="bvK-rl-Pkz"/>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="toSearchScreen" id="bvK-rl-Pkz"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="compareButton" destination="iRT-9J-vdV" id="Lx8-dN-d7J"/>
                         <outlet property="tableView" destination="8sj-fa-O3s" id="g8h-Hd-Bnm"/>
+                        <segue destination="Kgz-sD-3l5" kind="show" identifier="toComparisonScreen" id="M3W-7Z-6OR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="99l-3w-RqL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="-627"/>
+        </scene>
+        <!--Comparison View Controller-->
+        <scene sceneID="nXW-01-KjB">
+            <objects>
+                <tableViewController id="Kgz-sD-3l5" customClass="ComparisonViewController" customModule="WeatherAppRevised" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Lw9-IE-EhM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="comparisonCell" rowHeight="121" id="PKB-NM-KQB" customClass="TableViewCell" customModule="WeatherAppRevised" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="121"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PKB-NM-KQB" id="6ME-f7-OAm">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="120.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cPE-8e-Vrb">
+                                            <rect key="frame" x="8" y="0.0" width="120" height="120"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="120" id="bqJ-yr-wFn"/>
+                                                <constraint firstAttribute="height" constant="120" id="khk-ll-voS"/>
+                                            </constraints>
+                                        </imageView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="gMo-Fv-Bb4">
+                                            <rect key="frame" x="133" y="0.0" width="234" height="120.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cityName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pY5-cV-vIB">
+                                                    <rect key="frame" x="0.0" y="0.0" width="234" height="60.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="temperature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcZ-hB-zjh">
+                                                    <rect key="frame" x="0.0" y="60.5" width="234" height="60"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="gMo-Fv-Bb4" secondAttribute="trailing" constant="8" id="6If-4c-qJc"/>
+                                        <constraint firstItem="cPE-8e-Vrb" firstAttribute="top" secondItem="6ME-f7-OAm" secondAttribute="top" id="G6M-hj-uyN"/>
+                                        <constraint firstItem="gMo-Fv-Bb4" firstAttribute="leading" secondItem="cPE-8e-Vrb" secondAttribute="trailing" constant="5" id="Nn7-89-PjT"/>
+                                        <constraint firstItem="cPE-8e-Vrb" firstAttribute="leading" secondItem="6ME-f7-OAm" secondAttribute="leading" constant="8" id="UvK-OJ-RRe"/>
+                                        <constraint firstAttribute="bottom" secondItem="cPE-8e-Vrb" secondAttribute="bottom" id="gZv-wN-7rp"/>
+                                        <constraint firstItem="gMo-Fv-Bb4" firstAttribute="top" secondItem="6ME-f7-OAm" secondAttribute="top" id="mel-sT-ED5"/>
+                                        <constraint firstAttribute="bottom" secondItem="gMo-Fv-Bb4" secondAttribute="bottom" id="pss-vJ-TLR"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="cityNameLabel" destination="pY5-cV-vIB" id="Tg5-pK-gs1"/>
+                                    <outlet property="temperatureLabel" destination="xcZ-hB-zjh" id="0bs-jb-jdT"/>
+                                    <outlet property="weatherImage" destination="cPE-8e-Vrb" id="QuL-yg-NGa"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Kgz-sD-3l5" id="456-iT-rvw"/>
+                            <outlet property="delegate" destination="Kgz-sD-3l5" id="yQZ-P0-IwM"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YR9-Ee-hJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2000.8" y="-627.4362818590705"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
