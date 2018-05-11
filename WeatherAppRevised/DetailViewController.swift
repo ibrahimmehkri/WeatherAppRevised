@@ -22,10 +22,11 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     //TRIED USING NAV.TOPVIEWCONTROLLER AND SETTING THE STORE THERE AND MOVING IT FORWARD
     //TRIED STORYBOARD INSTANTIATEVIEWCONTROLLER
     //TRIED VARIABLE DELEGATE OF A VIEWCONTROLLER. NONE OF IT SEEMS TO WORK!
-    weak var delegate: FavoritesViewController!
+//    weak var delegate: FavoritesViewController!
     
     
     var detailCity:City!
+    
     //can be instantiated!
     var weekWeather = [Weather]()
     
@@ -74,7 +75,11 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }()
     
     @IBAction func addToFavorites(_ sender: UIButton) {
-       self.delegate.favorites.append(detailCity)
+//       self.delegate.favorites.append(detailCity)
+      let rootVC = navigationController?.viewControllers.first as! FavoritesViewController
+        rootVC.favorites.favoritesArray.append(detailCity)
+        rootVC.tableView.reloadData()
+        
     }
     
 }

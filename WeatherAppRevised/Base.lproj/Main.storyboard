@@ -17,7 +17,33 @@
                     <view key="view" contentMode="scaleToFill" id="m1J-vO-QZr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsMultipleSelection="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8sj-fa-O3s">
+                                <rect key="frame" x="0.0" y="58" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="favCell" id="iER-Q2-R6U">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iER-Q2-R6U" id="cW4-Jz-otq">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="9xi-NG-a4K" id="O8T-OL-zEb"/>
+                                    <outlet property="delegate" destination="9xi-NG-a4K" id="8DU-AQ-zCe"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8sj-fa-O3s" firstAttribute="width" secondItem="m1J-vO-QZr" secondAttribute="width" id="UhY-lM-67e"/>
+                            <constraint firstItem="8sj-fa-O3s" firstAttribute="centerX" secondItem="IuX-A1-1p2" secondAttribute="centerX" id="ffn-9Y-D1f"/>
+                            <constraint firstItem="8sj-fa-O3s" firstAttribute="height" secondItem="m1J-vO-QZr" secondAttribute="height" id="vp4-AA-ETc"/>
+                            <constraint firstItem="8sj-fa-O3s" firstAttribute="centerY" secondItem="IuX-A1-1p2" secondAttribute="centerY" id="zgQ-Gy-J0R"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="IuX-A1-1p2"/>
                     </view>
                     <navigationItem key="navigationItem" id="frJ-M8-ykx">
@@ -27,6 +53,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="8sj-fa-O3s" id="g8h-Hd-Bnm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="99l-3w-RqL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

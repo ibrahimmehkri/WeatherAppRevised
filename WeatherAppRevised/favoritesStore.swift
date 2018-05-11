@@ -10,9 +10,9 @@ import Foundation
 import UIKit
 
 class FavoritesStore: NSObject{
-    var favorites = [City]()
+    var favoritesArray = [City]()
     
     func includeInFavorites(city: City) {
-        favorites.append(city)
+        favoritesArray.append(city)
     }
 }

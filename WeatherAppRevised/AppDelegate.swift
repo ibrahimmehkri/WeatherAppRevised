@@ -15,6 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let store = FavoritesStore()
+        let navCon = window?.rootViewController as! UINavigationController
+        let favCon = navCon.topViewController as! FavoritesViewController
+        favCon.favorites = store
         return true
     }
 
