@@ -11,8 +11,8 @@ import UIKit
 class ComparisonViewController: UITableViewController {
     
     var selectedCities = [City]()
-    var weatherForFirstCity: Weather!
-    var weatherForSecondCity:Weather!
+    var weather = [Weather]()
+    var images = [UIImage]()
     
    
     override func viewDidLoad() {
@@ -33,7 +33,6 @@ class ComparisonViewController: UITableViewController {
     
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         return weather.count
     }
 
